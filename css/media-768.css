@@ -1,0 +1,30 @@
+.home {
+  font-size: 20px;
+}
+.about {
+  display: inline;
+  font-size: 14px;
+  font-weight: bold;
+}
+.about img {
+  display: none;
+  overflow: hidden;
+}
+footer {
+  font-size: 9px;
+  text-align: center;
+}
+input,textarea
+{
+   width: 95%;
+}
+button
+{
+   padding: 20px 45px;
+}
+.products 
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 500px);
+  padding-left: 30px;
+}
